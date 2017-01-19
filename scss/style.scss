@@ -1,0 +1,32 @@
+/*we use ../ because we created a folder for scss.  need to go up a directory*/
+
+@import '../node_modules/foundation-sites/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+
+@import 'header';
+
+body{
+    background-color: mediumpurple;
+    font-family: 'Righteous', cursive;
+}
+
+header{
+    background-color: rebeccapurple;
+
+    h1{
+        text-align: center;
+    }
+}
+
+h2{
+    color: rebeccapurple;
+}
+
+button{
+    background-color: rebeccapurple;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+}

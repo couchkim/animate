@@ -1,1 +1,1 @@
-# animate
+# updated-project-starter
