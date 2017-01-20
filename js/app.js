@@ -65,7 +65,16 @@ window.addEventListener('load', function () {
 
   }
 
-  function 
+let dom1 = document.querySelector('#start');
+let startOf = document.createElement('h3');
+startOf.textContent = moment().startOf('week');
+dom1.appendChild(startOf);
+
+
+  
+  moment().endOf('year');
+  moment().daysInMonth();
+  moment().isBefore('2018-10-10');
 
 })
 
