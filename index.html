@@ -3,9 +3,7 @@
 <html>
 
 <head>
-    <title>Animate Demo</title>
-    <!--<link rel="stylesheet" href="animate.min.css">-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <title>Moment Demo</title>
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <!--<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js" type="text/javascript"></script>-->
     <link rel="stylesheet" href="style.css">
@@ -21,22 +19,29 @@
     </header>
 
     <main>
-        <h2>It Can Display a Date In Many Formats:</h2>
+
 
         <section id='showDate'>
+            <h2>It Can Display The Current Date In Many Formats:</h2> 
             <h3 id="displayMoment"></h3>
-            <section>
+        </section>
 
-                <section id='enterDate'>
-                    <h2>It Can Parse and Validate Dates</h2>
-                    <input type="text" id="date" placeholder="Enter Date">
-                    <button id='submit'>Submit Date</button>
-                </section>
+        <section id='enterDate'>
+            <h2>It Can Parse, Add, and Subtract Dates:</h2>
+            <input type="text" id="date" placeholder="Month Day, Year">
+            <button id='submit'>Submit Date</button>
+            <h4 id = "parse">parse to different format:</h4>
+            <h4 id = "subtract">subtract 3 months:</h4>
+            <h4 id = "fromNow">how long from now:</h4>
+            <h4 id = "years">one year from now:</h4>
+            <h4 id = "days">365 days from now:</h4>
 
-                <section id = "math">   
-                     <h2>It Can Add and Subtract Dates</h2>
+        </section>
 
-                </section>
+        <section id="math">
+            <h2>It Can Manipulate Dates and Return Cool Info:</h2>
+
+        </section>
     </main>
 
 </body>
